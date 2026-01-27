@@ -112,7 +112,9 @@ init_filebrowser() {
     fi
 
     echo "Starting FileBrowser on port 8080..."
-    nohup filebrowser &> /filebrowser.log &
+    nohup filebrowser > /filebrowser.log 2>&1 &
+    sleep 1
+    pgrep -a filebrowser || echo "filebrowser no arrancó"
 }
 
 install_custom_nodes_deps_with_pip() {
