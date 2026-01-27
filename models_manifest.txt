@@ -1,1 +1,1 @@
-https://huggingface.co/WouterGlorieux/GracePenelopeTargaryenV5/blob/main/GracePenelopeTargaryenV5.safetensors loras/GracePenelopeTargaryenV5.safetensors
+WAN https://huggingface.co/WouterGlorieux/GracePenelopeTargaryenV5/blob/main/GracePenelopeTargaryenV5.safetensors loras/GracePenelopeTargaryenV5.safetensors
