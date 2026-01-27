@@ -1,5 +1,6 @@
 #!/bin/bash
 set -euo pipefail
+mkdir -p /workspace/runpod-slim
 
 COMFYUI_DIR="/workspace/runpod-slim/ComfyUI"
 VENV_DIR="$COMFYUI_DIR/.venv"
